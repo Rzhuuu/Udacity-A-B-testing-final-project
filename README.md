@@ -21,14 +21,13 @@ Udacity homepage overview presents two options:
 If the student selected ‘start free trial’, they were prompt to specify the amount of time they could dedicate to the course each week. If the student indicated 5 or more hours per week, the checkout process is as usual. If they indicated less than 5 hours per week, a message would appear informing them that Udacity courses require more time commitment for successful completion. They would then be encouraged to access the course materials for free instead. The student had the choice to proceed with the free trial or opt to access the course materials for free. A screenshot demonstrating the updated page is provided.
 
 **Hypothesis:**
-
 By setting clearer expectations for student upfront, it would reduce the number of frustrated students who abandoned the free trial due to time constraints, while maintaining the number of students who continued past the free trial and completed the course. If the hypothesis proven true, this could enhance the overall student experience and optimize coaches capacity to support students who likely to complete the course.
 
 **Unit of diversion:**
-
 The unit of diversion is a cookie. However, once a student enrolls in the free trial, they are tracked using their user ID. Each user ID can only enroll in the free trial once. If users do not enroll, their user ID is not included in the experiment data, even if they were logged in when they visited the course overview page.
 
-**Cookies uniqueness:** Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on a daily basis. This means that if the same cookie visits on different days, it will be counted as separate instances. User IDs are inherently unique as the website prohibits duplicate enrollments under the same user ID.
+**Cookies uniqueness:** 
+Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on a daily basis. This means that if the same cookie visits on different days, it will be counted as separate instances. User IDs are inherently unique as the website prohibits duplicate enrollments under the same user ID.
 
 **Metric choice**
 
