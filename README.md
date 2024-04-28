@@ -26,4 +26,12 @@ By setting clearer expectations for student upfront, it would reduce the number 
 
 **Unit of diversion:**
 
-Cookies. However, once a student enrolls in the free trial, they are tracked using their user ID. Each user ID can only enroll in the free trial once. If users do not enroll, their user ID is not included in the experiment data, even if they were logged in when they visited the course overview page.
+The unit of diversion is a cookie. However, once a student enrolls in the free trial, they are tracked using their user ID. Each user ID can only enroll in the free trial once. If users do not enroll, their user ID is not included in the experiment data, even if they were logged in when they visited the course overview page.
+
+**Cookies uniqueness:** Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on a daily basis. This means that if the same cookie visits on different days, it will be counted as separate instances. User IDs are inherently unique as the website prohibits duplicate enrollments under the same user ID.
+
+**Metric choice**
+
+**Invariant metric:** The metrics should not change across your experiment and control. Invariant metric serve as ‘sanity checks’ to ensure the validity of our experiment, both in terms of how we introduced a change to a portion of the population and how we gathered data. There are two types of invariant metrics. Population sizing metrics, and any other metrics you don’t expect to change.
+
+**Evaluation metric:** The metrics where we anticipate observing a change, and they are aligned with the business objectives we seek to accomplish. For each metric, we establish a dmin value, which is the practical significance boundary for each metric. They are given as absolute changes and they represent the minimum change that is practically meaningful to the business.
