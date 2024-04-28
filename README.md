@@ -12,9 +12,9 @@
 
 Udacity homepage overview presents two options:
 
-1.            Start free trial. If student clicks ‘start free trial’, they will be asked to enter their credit card information, then get enrolled in a free trial of the paid version of the course. After 14 days, the student will automatically be charged unless they cancel first.
+1. Start free trial. If student clicks ‘start free trial’, they will be asked to enter their credit card information, then get enrolled in a free trial of the paid version of the course. After 14 days, the student will automatically be charged unless they cancel first.
 
-2.            Access course materials. If student clicks ‘access course materials’, they will be able to view the course content but receive no coaching or certificate, and they cannot get feedback after submitting final project.
+2. Access course materials. If student clicks ‘access course materials’, they will be able to view the course content but receive no coaching or certificate, and they cannot get feedback after submitting final project.
 
 **Future stage:**
 
