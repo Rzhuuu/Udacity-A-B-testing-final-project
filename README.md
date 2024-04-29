@@ -70,9 +70,9 @@ Below is a scaled-downed version of metrics:
 |Item|	Estimator|
 | ------ | -------| 
 |Baseline CTP|	0.08|
-|Baseline clicks|3200*(5000/40000)=400|
+|Baseline clicks|$$3200* {\frac{5000}{40000}}=400$$|
 |Baseline cookies|5000|
-|Baseline enrollments|660*(5000/40000)=82.5|
+|Baseline enrollments|$$660 * {\frac{5000}{40000}}=82.5$$|
 |Baseline gross conversion|0.20625|
 |Baseline Retention|	0.53|
 |Baseline net conversion|0.109313|
@@ -80,7 +80,9 @@ Below is a scaled-downed version of metrics:
 **Analytical estimate of standard deviation:**
 
 We assume probabilities are binomially distributed and apply the below formula:
-\sqrt{\frac{a}{b}}
+
+$$S.D.=\sqrt{\frac{\hat{p}*(1-\hat{p})}{n}}$$
+
 
 |Evaluation Metric|Standard Deviation|
 |----------|---------|
@@ -88,4 +90,4 @@ We assume probabilities are binomially distributed and apply the below formula:
 | Retention         | 0.0549 |
 | Net Conversion    | 0.0156 |
 
-
+The analytical estimate of standard deviation is accurate when the unit of diversion equal to unit of analysis (denominator of the metric). The two units are the same for Gross Conversion and Net Conversion but not for Retention. Need to calculate empirically if decide to use Retention.
