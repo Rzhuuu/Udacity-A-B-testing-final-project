@@ -40,5 +40,5 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 | ------------------------ | ---------------------- | --------------------| ---------------------|-------------| 
 |Number of Cookies in Course Overview Page|# unique daily cookies on page|3000 cookies|*C*<sub>cookies</sub>|Population sizing metric|
 |Number of Cookies click on 'Start free trial' Button|# unique daily cookies who clicked|240 clicks|*C*<sub>clicks</sub>| Population sizing metric|
-|Free Trial button Click-Through-Probability|&frac*C*<sub>clicks</sub>*C*<sub>cookies</sub>;|0.01|CTP|Population sizing metric|
+|Free Trial button Click-Through-Probability|*C*<sub>clicks</sub> / *C*<sub>cookies</sub>|0.01|CTP|Population sizing metric|
 
