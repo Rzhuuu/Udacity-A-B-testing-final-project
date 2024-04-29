@@ -29,7 +29,7 @@ Unit of diversion is how we define what an individual subject is in the experime
 **Cookies uniqueness:** 
 Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on a daily basis. This means that if the same cookie visits on different days, it will be counted as separate instances. User IDs are inherently unique as the website prohibits duplicate enrollments under the same user ID.
 
-**Metric choice:**
+**Metric choice**
 
 **Invariant metric:** The metrics should not change across your experiment and control. Invariant metric serve as ‘sanity checks’ to ensure the validity of our experiment, both in terms of how we introduced a change to a portion of the population and how we gathered data. There are two types of invariant metrics. Population sizing metrics, and any other metrics you don’t expect to change.
 
@@ -61,7 +61,7 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Retention|Probability of payment, given enroll:|	0.53|
 |Net Conversion|Probability of payment, given click| 0.109313|
 
-**Measuring Variability:**
+**Measuring Variability**
 
 Estimate the standard deviation analytically for each metric selected as an evaluation metric.
 
@@ -95,3 +95,13 @@ $$S.D.=\sqrt{\frac{\hat{p}*(1-\hat{p})}{n}}$$
 - Net Conversion: Number of paying users divided by the number of cookies that clicked the free trial button.
 
 The analytical estimate of standard deviation is accurate when the unit of diversion equal to unit of analysis (denominator of the metric). The two units are the same for Gross Conversion and Net Conversion but not for Retention. Need to calculate empirically if decide to use Retention.
+
+**Sizing**
+
+**Number of Samples given Power:**
+
+Given $\alpha$ =0.05 (significance level) and $\beta$ = 0.2 (power), we want to estimate how many total pageviews (cookies who viewed the course overview page) we need in the experiment. This amount will be divided into two groups: control and experiment. We can calculate by using the below formula:
+
+
+n = (*Z*<sub>$1-{\frac{\alpha}{2}}$</sub>sd<sub>1</sub>+*Z*<sub>$1-{beta}$</sub>sd<sub>2</sub>)^2 / ${d^2}$
+
