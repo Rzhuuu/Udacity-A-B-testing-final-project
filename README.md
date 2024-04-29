@@ -42,3 +42,8 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Number of Cookies click on 'Start free trial' Button|# unique daily cookies who clicked|240 clicks|*C*<sub>clicks</sub>| Population sizing metric|
 |Free Trial button Click-Through-Probability|*C*<sub>clicks</sub> / *C*<sub>cookies</sub>|0.01|CTP|Population sizing metric|
 
+|         Metric Name      |         Metric Formula |    d<sub>min</sub>  |             Notation | Metric Type | 
+| ------------------------ | ---------------------- | --------------------| ---------------------|-------------| 
+|Gross Conversion|*C*<sub>enrolled</sub> / *C*<sub>clicked</sub>|0.01|*Conversion*<sub>Gross</sub>|Performance metric|
+|Retention|*C*<sub>paid</sub> / *C*<sub>enrolled</sub>|0.01|*Retention*|Performance metric|
+|Net Conversion|*C*<sub>paid</sub> / *C*<sub>clicked</sub>|0.0075|*Conversion*<sub>Net</sub>|Performance metric|
