@@ -29,7 +29,7 @@ Unit of diversion is how we define what an individual subject is in the experime
 **Cookies uniqueness:** 
 Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on a daily basis. This means that if the same cookie visits on different days, it will be counted as separate instances. User IDs are inherently unique as the website prohibits duplicate enrollments under the same user ID.
 
-**Metric choice**
+**Metric choice:**
 
 **Invariant metric:** The metrics should not change across your experiment and control. Invariant metric serve as ‘sanity checks’ to ensure the validity of our experiment, both in terms of how we introduced a change to a portion of the population and how we gathered data. There are two types of invariant metrics. Population sizing metrics, and any other metrics you don’t expect to change.
 
