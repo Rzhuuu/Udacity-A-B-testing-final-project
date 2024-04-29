@@ -79,8 +79,13 @@ Below is a scaled-downed version of metrics:
 
 **Analytical estimate of standard deviation:**
 
-| Evaluation Metric | Standard Deviation |
+We assume probabilities are binomially distributed and apply the below formula:
+\sqrt{\frac{a}{b}}
+
+|Evaluation Metric|Standard Deviation|
 |----------|---------|
 | Gross Conversion  | 0.0202 |
 | Retention         | 0.0549 |
 | Net Conversion    | 0.0156 |
+
+
