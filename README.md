@@ -67,7 +67,7 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Baseline CTP|	0.08|
 |Baseline clicks|3200*(5000/40000)=400|
 |Baseline cookies|5000|
-|Baseline enrollments|660*5000/40000=82.5|
+|Baseline enrollments|660*\brac(5000/40000)=82.5|
 |Baseline gross conversion|0.20625|
 |Baseline Retention|	0.53|
 |Baseline net conversion|0.109313|
