@@ -39,5 +39,5 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |             Metric Name      |         Metric Formula |               dmin  |             Notation | Metric Type | 
 | ------------------------ | --------------------------- | -------------------- | ---------------------- |---| 
 |Number of Cookies in Course Overview Page|# unique daily cookies on page|3000 cookies|*C*<sub>cookies</sub>|Population sizing metric|
-| Number of Cookies click on 'Start free trial' Button  | # unique daily cookies who clicked | Content Cell  | Content Cell  |
-| Free Trial button Click-Through-Probability  | Content Cell  | Content Cell  | Content Cell  |
+| Number of Cookies click on 'Start free trial' Button  | # unique daily cookies who clicked |*C*<sub>clicks</sub>| Population sizing metric|
+| Free Trial button Click-Through-Probability  |*C*<sub>clicks</sub> / *C*<sub>cookies</sub>|CTP|Population sizing metric|
