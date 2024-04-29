@@ -61,6 +61,17 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Retention|Probability of payment, given enroll:|	0.53|
 |Net Conversion|Probability of payment, given click| 0.109313|
 
+
+|Item|	Estimator|
+| ------ | -------| 
+|Baseline CTP|	0.08|
+|Baseline clicks|3200*(5000/40000)=400|
+|Baseline cookies|5000|
+|CTP|	Click-through-probability on "Start free trial":	|0.08|
+|Gross Conversion|Probability of enrolling, given click:|	0.20625|
+|Retention|Probability of payment, given enroll:|	0.53|
+|Net Conversion|Probability of payment, given click| 0.109313|
+
 **Measuring Variability:**
 
 Estimate the standard deviation analytically for each metric selected as an evaluation metric.
