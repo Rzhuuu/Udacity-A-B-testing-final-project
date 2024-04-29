@@ -48,6 +48,7 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Net Conversion|*C*<sub>paid</sub> / *C*<sub>clicked</sub>|0.0075|*Conversion*<sub>Net</sub>|Performance metric|
 
 **Estimating baseline values:**
+
 **Baseline:** How the metrics behave before the change.
 
 |Item|	Description|	Estimator|
