@@ -61,3 +61,7 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Retention|Probability of payment, given enroll:|	0.53|
 |Net Conversion|Probability of payment, given click| 0.109313|
 
+**Measuring Variability:**
+
+Estimate the standard deviation analytically for each metric selected as an evaluation metric.
+
