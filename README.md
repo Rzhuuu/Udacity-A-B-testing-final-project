@@ -46,3 +46,17 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Gross Conversion|*C*<sub>enrolled</sub> / *C*<sub>clicked</sub>|0.01|*Conversion*<sub>Gross</sub>|Performance metric|
 |Retention|*C*<sub>paid</sub> / *C*<sub>enrolled</sub>|0.01|*Retention*|Performance metric|
 |Net Conversion|*C*<sub>paid</sub> / *C*<sub>clicked</sub>|0.0075|*Conversion*<sub>Net</sub>|Performance metric|
+
+**Estimating baseline values:**
+**Baseline:**How the metrics behave before the change.
+
+|Item|	Description|	Estimator|
+| ----- | ------ | -------| 
+|Number of cookies|	Unique cookies to view course overview page per day:|	40000|
+|Number of clicks	| Unique cookies to click "Start free trial" per day:|3200|
+|Number of enrollments|Enrollments per day:|660|
+|CTP|	Click-through-probability on "Start free trial":	|0.08|
+|Gross Conversion|Probability of enrolling, given click:|	0.20625|
+|Retention|Probability of payment, given enroll:|	0.53|
+|Net Conversion|Probability of payment, given click| 0.109313|
+
