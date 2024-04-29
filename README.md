@@ -90,4 +90,8 @@ $$S.D.=\sqrt{\frac{\hat{p}*(1-\hat{p})}{n}}$$
 | Retention         | 0.0549 |
 | Net Conversion    | 0.0156 |
 
+- Gross Conversion: Number of users to enroll in a free trial divided by the number of cookies clicking the free trial.
+- Retention: Number of paying users (remain enrolled past 14 free days) divided by the number of total enrolled users.
+- Net Conversion: Number of paying users divided by the number of cookies that clicked the free trial button.
+
 The analytical estimate of standard deviation is accurate when the unit of diversion equal to unit of analysis (denominator of the metric). The two units are the same for Gross Conversion and Net Conversion but not for Retention. Need to calculate empirically if decide to use Retention.
