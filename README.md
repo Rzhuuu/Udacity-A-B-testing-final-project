@@ -34,3 +34,10 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 **Invariant metric:** The metrics should not change across your experiment and control. Invariant metric serve as ‘sanity checks’ to ensure the validity of our experiment, both in terms of how we introduced a change to a portion of the population and how we gathered data. There are two types of invariant metrics. Population sizing metrics, and any other metrics you don’t expect to change.
 
 **Evaluation metric:** The metrics where we anticipate observing a change, and they are aligned with the business objectives we seek to accomplish. For each metric, we establish a dmin value, which is the practical significance boundary for each metric. They are given as absolute changes and they represent the minimum change that is practically meaningful to the business.
+
+
+|             Metric Name                    |         Metric Formula |               dmin  |                Notation |
+| --------------------------------- | ------------------------------- | -------------------- | ---------------------- |
+| Number of Cookies in Course Overview Page  | # unique daily cookies on page  | 3000 cookies  | Content Cell  |Population sizing metric|
+| Number of Cookies click on 'Start free trial' Button  | # unique daily cookies who clicked | Content Cell  | Content Cell  |
+| Free Trial button Click-Through-Probability  | Content Cell  | Content Cell  | Content Cell  |
