@@ -61,6 +61,10 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 |Retention|Probability of payment, given enroll:|	0.53|
 |Net Conversion|Probability of payment, given click| 0.109313|
 
+**Measuring Variability:**
+
+Estimate the standard deviation analytically for each metric selected as an evaluation metric.
+
 Below is a scaled-downed version of metrics:
 
 |Item|	Estimator|
@@ -73,7 +77,10 @@ Below is a scaled-downed version of metrics:
 |Baseline Retention|	0.53|
 |Baseline net conversion|0.109313|
 
-**Measuring Variability:**
+**Analytical estimate of standard deviation:**
 
-Estimate the standard deviation analytically for each metric selected as an evaluation metric.
-
+| Evaluation Metric | Standard Deviation |
+|----------|---------|
+| Gross Conversion  | 0.0202 |
+| Retention         | 0.0549 |
+| Net Conversion    | 0.0156 |
