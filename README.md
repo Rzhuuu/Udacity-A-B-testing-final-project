@@ -105,3 +105,4 @@ Given $\alpha$ =0.05 (significance level) and $\beta$ = 0.2 (power), we want to 
 
 n = (*Z*<sub>$1-{\frac{\alpha}{2}}$</sub>sd<sub>1</sub>+*Z*<sub>$1-{beta}$</sub>sd<sub>2</sub>)^2 / ${d^2}$
 
+\[ n = \frac{{2 \cdot (Z_{\alpha/2} + Z_{\beta})^2 \cdot \hat{p} \cdot (1 - \hat{p})}}{{(\mu_1 - \mu_2)^2}} \]
