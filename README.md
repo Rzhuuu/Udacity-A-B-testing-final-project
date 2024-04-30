@@ -121,3 +121,17 @@ $$ SD_2 = \sqrt{p(1-p) + (p + d) \left( 1 - \left( 1 - (p + d) \right) \right)} 
 - p: the probability of success (e.g., conversion rate).
 
 - d: the minimum detectable effect size.
+
+| Metric                       | Gross conversion       | Retention| Net conversion|
+|-----------------------------|------------------------|-----------|---------------|
+| Baseline Conversion Rate    | 0.20625                |0.53|0.109312|
+| d_min                       | 0.01                   |0.01|0.0075|
+| Alpha                       | 0.05                   |0.05|0.05|
+| Beta                        | 0.2                    |0.2|0.2|
+| Power (1-beta)              | 0.8                    |0.8|0.8|
+| Sample Size (enrollments/group) | 25,835             |78,230|54,826|
+| Total sample Size | 51,670             |39,115|27,413|
+| Number of groups            | 2 (treatment and control)| 2 (treatment and control)| 2 (treatment and control)|
+| Clicks / Pageview           |3200/40000 = 0.08 |660/40000 = 0.0165|3200/40000 = 0.08|
+| Pageviews (cookies)         | 645,875                |4,741,212|685,325|
+
