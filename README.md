@@ -94,7 +94,7 @@ $$S.D.=\sqrt{\frac{\hat{p}*(1-\hat{p})}{n}}$$
 - Retention: Number of paying users (remain enrolled past 14 free days) divided by the number of total enrolled users.
 - Net Conversion: Number of paying users divided by the number of cookies that clicked the free trial button.
 
-The analytical estimate of standard deviation is accurate when the unit of diversion equal to unit of analysis (denominator of the metric). The two units are the same for Gross Conversion and Net Conversion but not for Retention. Need to calculate empirically if decide to use Retention.
+Variability tends to be lower and closer to analytical estimate when unit of analysis (denominator of the metric) equals to unit of diversion. The two units are the same for Gross Conversion and Net Conversion but not for Retention. Need to calculate empirically if decide to use Retention.
 
 **Sizing**
 
@@ -102,7 +102,22 @@ The analytical estimate of standard deviation is accurate when the unit of diver
 
 Given $\alpha$ =0.05 (significance level) and $\beta$ = 0.2 (power), we want to estimate how many total pageviews (cookies who viewed the course overview page) we need in the experiment. This amount will be divided into two groups: control and experiment. We can calculate by using the below formula:
 
+$$ n = \frac{{(Z_{1-\alpha/2} \cdot sd_1 + Z_{1-\beta} \cdot sd_2)^2}}{{d^2}} $$
 
-n = (*Z*<sub>$1-{\frac{\alpha}{2}}$</sub>sd<sub>1</sub>+*Z*<sub>$1-{beta}$</sub>sd<sub>2</sub>)^2 / ${d^2}$
+$$ SD_1 = \sqrt{p(1-p) + p(1-p)} $$
 
-\[ n = \frac{{2 \cdot (Z_{\alpha/2} + Z_{\beta})^2 \cdot \hat{p} \cdot (1 - \hat{p})}}{{(\mu_1 - \mu_2)^2}} \]
+$$ SD_2 = \sqrt{p(1-p) + (p + d) \left( 1 - \left( 1 - (p + d) \right) \right)} $$
+
+- n: minimum sample size required for each group.
+​
+- $Z_{1-\alpha/2}$: the critical value for the desired level of statistical significance.
+​
+- $Z_{1-\beta}$: the critical value for the desired statistical power.
+
+- SD1: the standard deviation for the control group.
+
+- SD2: the standard deviation for the treatment group.
+
+- p: the probability of success (e.g., conversion rate).
+
+- d: the minimum detectable effect size.
