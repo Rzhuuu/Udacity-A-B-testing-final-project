@@ -135,3 +135,10 @@ $$ SD_2 = \sqrt{p(1-p) + (p + d) \left( 1 - \left( 1 - (p + d) \right) \right)} 
 | Clicks / Pageview           |3200/40000 = 0.08 |660/40000 = 0.0165|3200/40000 = 0.08|
 | Pageviews (cookies)         | 645,875                |4,741,212|685,325|
 
+**Duration vs. Exposure:**
+
+The maximum sample size represents the effective size, which should be assessed regarding the efficiency of duration and exposure. It's essential to consider how long it will take to obtain this number of samples for the experiment.
+- Retention has 4.7 million pageviews. Given we have 40,000 page views per day, it would take us 119 days to get all the samples. We will drop this metric because including it will bias our results.
+- Net conversion has the highest sample size which is 685,325. This means an 17-day experiment with 100% diversion and 22-day experiment with 80% diversion.
+
+**Analysis:** 
