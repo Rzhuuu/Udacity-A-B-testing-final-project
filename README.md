@@ -141,4 +141,5 @@ The maximum sample size represents the effective size, which should be assessed 
 - Retention has 4.7 million pageviews. Given we have 40,000 page views per day, it would take us 119 days to get all the samples. We will drop this metric because including it will bias our results.
 - Net conversion has the highest sample size which is 685,325. This means an 17-day experiment with 100% diversion and 22-day experiment with 80% diversion.
 
-**Analysis:** 
+**Analysis** 
+**Sanity Checks:** 
