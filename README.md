@@ -142,4 +142,35 @@ The maximum sample size represents the effective size, which should be assessed 
 - Net conversion has the highest sample size which is 685,325. This means an 17-day experiment with 100% diversion and 22-day experiment with 80% diversion.
 
 **Analysis** 
+
 **Sanity Checks:** 
+
+It is expected that approximately half (50%) of the total pageviews in control group and experiment group. A binomial random variable will be the number of successes it is expected to get out of N experiments. When N gets larger, we can apply central limit theorem by approximate the binomial distribution to a normal distribution with a mean of p and a standard deviation $\sqrt{\frac {p*(1-p)}{n}}$
+
+Difference between counts: 
+
+$$\hat{P}= \frac{X}{N}$$
+
+$$X \sim N(\mu, \sqrt{\frac {p*(1-p)}{n}})$$
+
+$$M.E. = Z_{1-\alpha/2}* \sqrt{\frac {p*(1-p)}{n}}$$
+
+$$C.I. = [\hat{p} - M.E., \hat{p} + M.E. ]$$
+
+Differences between probabilities:
+
+$$\hat{P}<sub>pool</sub> = \frac{X_{exp}+X_{cont}}{N_{exp}+N_{cont}}$$
+
+$$S.D._{pool} = \sqrt{\hat{P}<sub>pool</sub>*(1-\hat{P}<sub>pool</sub>) * ({\frac{1}{n_1}+ \frac{1}{n_2}})}$$
+
+$$\hat{d} = \frac{X_{exp}}{N_{exp}} - \frac{X_{cont}}{N_{cont}}$$
+
+
+| Metric | Control | Experiment| p|$\hat{p}$| Confidence interval| Result|
+|----------------------------------------|------------------------|-----------|---------------|---|---|--|
+| Number of Cookies| 345543  |344660|0.5|0.5006|0.4988 to 0.5012| Pass
+| Number of Clicks on Free Trial Button| 28378  |28325|0.5|0.5005|0.4959 to 0.5042| Pass
+| Free Trial button Click-Through-Probability|3785|3423|||-0.0013 to 0.0013| Pass
+
+
+
