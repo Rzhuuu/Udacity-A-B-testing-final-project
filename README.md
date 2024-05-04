@@ -186,3 +186,5 @@ A metric is statistically significant if the confidence interval does not includ
 The negative change of 2.06% means the Gross Conversion rate of the experiment group (the one exposed to the change, i.e. asked how many hours they can devote to studying) has decreased and this change was significant. This means less people enrolled in the Free Trial after due to the pop-up.
 
 A change of less than a 0.5% is a very small decrease which is not statistically significant, and not practically significant.
+
+There is only one practical and statistical significant metric so no Bonferroni correcton needed.
