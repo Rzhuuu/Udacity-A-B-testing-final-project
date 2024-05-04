@@ -199,3 +199,30 @@ $$p(successes) = \frac{n!}{k!(n-k)!} p^{x}(1-p)^{n-x}$$
 |------|--------------|--------------|
 | Gross Conversion | 0.0026 | Yes |
 | Net Conversion | 0.6774 | No |
+
+**Recommendation**
+
+The aim of this study was to assess if filtering students based on their study time commitment would enhance the student experience and enable coaches to better support those likely to complete the course, while retaining a satisfactory number of students past the free trial. Although a statistically and practically signficant decrease in Gross Conversion was observed, indicating fewer enrollments, there were no significant differences in Net Conversion, implying no increase in the number of students staying for the required 14 days to initiate payment. Given these findings, I recommend not to launch and suggest exploring alternative experiments instead.
+
+**Follow-Up Experiment: How to Reduce Early Cancellations**
+
+We can break down the issue by first define 'cancel early'. It means student who enrolled but cancelled before the end of 14 day trial period and therefore before paying. Then we want to understand the reason why students cancel early. It could be due to course content not in line with students' expectations. To prevent cancelling early, there are two timepoint for intervention: 1. before clicking free-trial 2. after clicking free-trial but before payment.
+
+In the above experiment, a pop-up window asking students time commitment is to filter out students who likely to become frustrated later in the course. This filter did not focus on other reasons student may cancel early. A student may cancel early if they do not have the pre-requisite skill set and knowledge. That is, their committed time may not be enough if they don't come in with the pre-requisite skill set.
+
+Appending a checklist of prerequisite skills in the popup related to time commitment could provide valuable insights. This experiment would utilize the infrastructure and data pipeline of the original experiment and would be structured similarly, including the unit of diversion. The only variance would be the content of the form. If a student's response satisfies both the time and prerequisite criteria (as indicated by a radiobox checklist), they would be guided to enroll in the free trial; otherwise, they would be encouraged to access the free version. This experiment requires minimal resources and may enhance the effectiveness of the pre-enrollment filter. A successful experiment would involve a significant decrease in Gross Conversion combined with a significant increase in Net Conversion.
+
+For post-enrollment but pre-payment, multiple approaches can be used and deployed together with pre-enrollment intervention.
+An ideal approach would be one which minimizes the use of additional coaching resources to best meet the original intent of the intervention. One effective method could involve implementing peer coaching or guidance through team collaboration. By forming teams of students who can support each other, discuss coursework, share frustrations, and hold each other accountable, students may be more inclined to persevere through challenges and remain engaged in the long term. The experiment would operate as follows.
+
+Setup: After enrollment, students will be assigned randomly to either a control group, where they will not be grouped into a team, or an experimental group, where they will be.
+
+Null Hypothesis: Engagement in a team will not significantly increase the number of students enrolled beyond the 14 day free trial period.
+
+Unit of Diversion: The unit of diversion will be user-id as the change happens after a student creates an account and enrolls in a course.
+
+Invariant Metrics: The invariant metric will be user-id as equal distribution between experiment and control is expected as a property of the setup.
+
+Evaluation Metrics: The evaluation metric willl be Retention. The change is successful when there is a statistically and practically significant increase in Retention.
+
+If there is a statistically and practically significant improvement in Retention, and assuming it has an acceptable impact on overall Udacity resources (since establishing and maintaining teams will require resources), the experiment will be launched.
