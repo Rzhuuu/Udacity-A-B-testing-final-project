@@ -188,3 +188,12 @@ A metric is statistically significant if the confidence interval does not includ
 - A change of less than a 0.5% is a very small decrease which is not statistically significant, and not practically significant.
 
 - There is only one practical and statistical significant metric so no Bonferroni correcton needed.
+
+**Sign Tests**
+
+The sign test is a statistical method to test for consistent differences between pairs of observations. It is to calculate how likely the experiment side had a higher measurement than the control side that occurred if there was no difference between the two sides. Downside is it does not estimate the size of the effect. The upside is it is easy to do and it is applicable under a lot of circumstances. We could use the non-parametric sign tests to compare the results to what we got from parametric hypothesis test.
+
+| Metric | p-value for sign test | Statistically Significant @ alpha .05? |
+|------|--------------|--------------|
+| Gross Conversion | 0.0026 | Yes |
+| Net Conversion | 0.6776 | No |
