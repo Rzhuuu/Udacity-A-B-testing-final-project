@@ -174,5 +174,11 @@ $$\hat{d} = \frac{X_{exp}}{N_{exp}} - \frac{X_{cont}}{N_{cont}}$$
 |-------------------------------|---------|------------|------------|-----------|---------------|---|---|--|
 | Free Trial button Click-Through-Probability|56703|690203|0.0821|0.0822|0.0001|0.0013|-0.0013 to 0.0013| Pass
 
+**Check for Practical and Statistical Significance**
 
+A metric is statistically significant if the confidence interval does not include 0 (that is, you can be confident there was a change), and it is practically significant if the confidence interval does not include the practical significance boundary (that is, you can be confident there is a change that matters to the business.)
 
+| Metric | dmin | Observed Difference | CI Lower Bound | CI Upper Bound | Result |
+|------|--------------|--------------|--------------|--------------|------|
+| Gross Conversion | 0.01 | -0.0205 | -0.0292 | -0.012 | Both satistically and practically significant |
+| Net Conversion | 0.0075 | -0.0049 | -0.0116 | 0.0018 | Not statistically or practically significant |
