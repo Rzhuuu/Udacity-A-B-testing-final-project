@@ -191,9 +191,11 @@ A metric is statistically significant if the confidence interval does not includ
 
 **Sign Tests**
 
-The sign test is a statistical method to test for consistent differences between pairs of observations. It is to calculate how likely the experiment side had a higher measurement than the control side that occurred if there was no difference between the two sides. Downside is it does not estimate the size of the effect. The upside is it is easy to do and it is applicable under a lot of circumstances. We could use the non-parametric sign tests to compare the results to what we got from parametric hypothesis test.
+The sign test is a statistical method to test for consistent differences between pairs of observations. It is to calculate how likely the experiment side had a higher measurement than the control side that occurred if there was no difference between the two sides. Downside is it does not estimate the size of the effect. The upside is it is easy to do and it is applicable under a lot of circumstances. We could use the non-parametric sign tests to compare the results to what we got from parametric hypothesis test. We use binomial distributs with p = 0.5 and number of total days to estimate the probability of x days being a success (higher metric value in experiment). 
 
-| Metric | p-value for sign test | Statistically Significant @ alpha .05? |
+$$p(successes) = \frac{n!}{k!(n-k)!} p^{x}(1-p)^{n-x}$$
+
+| Metric | p-value for sign test | Statistically Significant @ $\alpha$ = 0.05 |
 |------|--------------|--------------|
 | Gross Conversion | 0.0026 | Yes |
-| Net Conversion | 0.6776 | No |
+| Net Conversion | 0.6774 | No |
