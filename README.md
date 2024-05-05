@@ -49,7 +49,7 @@ Whenever the term "unique cookies" is mentioned, their uniqueness is assessed on
 
 **Estimating baseline values:**
 
-**Baseline:** How the metrics behave before the change.
+**Baseline:** How the metrics behave before the change (pageview = 5000).
 
 |Item|	Description|	Estimator|
 | ----- | ------ | -------| 
