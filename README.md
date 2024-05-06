@@ -145,7 +145,9 @@ The maximum sample size represents the effective size, which should be assessed 
 
 **Sanity Checks:** 
 
-Check whether the invariant metrics are equivalent between the two groups. It is expected that approximately half (50%) of the total pageviews in control group and experiment group. A binomial random variable will be the number of successes it is expected to get out of N experiments. When N gets larger, we can apply central limit theorem by approximate the binomial distribution to a normal distribution with a mean of p and a standard deviation $\sqrt{\frac {p*(1-p)}{n}}$
+Check whether the invariant metrics are equivalent between the two groups. If the invariant metric is a simple count that should be randomly split between the 2 groups, use a binomial test. Otherwise, construct a confidence interval for a difference in proportions.
+
+It is expected that approximately half (50%) of the total pageviews in control group and experiment group. A binomial random variable will be the number of successes it is expected to get out of N experiments. When N gets larger, we can apply central limit theorem by approximate the binomial distribution to a normal distribution with a mean of p and a standard deviation $\sqrt{\frac {p*(1-p)}{n}}$
 
 Difference between counts: 
 
