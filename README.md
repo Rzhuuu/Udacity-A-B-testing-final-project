@@ -159,7 +159,7 @@ $$M.E. = Z_{1-\alpha/2}* \sqrt{\frac {p*(1-p)}{n}}$$
 
 $$C.I. = [\hat{p} - M.E., \hat{p} + M.E. ]$$
 
-| Metric | Control | Experiment| p|$\hat{p}$| $Confidence interval| Result|
+| Metric | Control | Experiment| p|$\hat{p}$| Confidence interval| Result|
 |-------------------------------|---------|------------------------|-------------------------|---|---|--|
 | Number of Cookies| 345543  |344660|0.5|0.5006|0.4988 to 0.5012| Pass
 | Number of Clicks on Free Trial Button| 28378  |28325|0.5|0.5005|0.4959 to 0.5042| Pass
