@@ -174,7 +174,7 @@ $$\hat{d} = \frac{X_{exp}}{N_{exp}} - \frac{X_{cont}}{N_{cont}}$$
 
 | Metric | Total clicks | Total pageviews| p|$\hat{p}$| $\hat{d}$|M.E.|Confidence interval| Result|
 |-------------------------------|---------|------------|------------|-----------|---------------|---|---|--|
-| Free Trial button Click-Through-Probability|56703|690203|0.0821|0.0822|0.0001|0.0012|-0.0013 to 0.0013| Pass
+| Free Trial button Click-Through-Probability|56703|690203|0.0821|0.0822|0.0001|0.0013|-0.0013 to 0.0013| Pass
 
 **Check for Practical and Statistical Significance**
 
