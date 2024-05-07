@@ -164,7 +164,7 @@ $$C.I. = [\hat{p} - M.E., \hat{p} + M.E. ]$$
 | Number of Cookies| 345543  |344660|0.5|0.5006|0.4988 to 0.5012| Pass
 | Number of Clicks on Free Trial Button| 28378  |28325|0.5|0.5005|0.4959 to 0.5042| Pass
 
-Differences between probabilities:
+Differences between probabilities: The proportion of clicks given a pageview (observed CTP) is about the same in both groups since this should not change due to the experiment. It is expected to see no difference (CTP<sub>exp</sub>−CTP<sub>cont</sub>) = 0
 
 $$\hat{P}<sub>pool</sub> = \frac{X_{exp}+X_{cont}}{N_{exp}+N_{cont}}$$
 
